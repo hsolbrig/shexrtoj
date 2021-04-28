@@ -1,0 +1,2122 @@
+[
+  {
+    "@id": "_:ub1bL5C1",
+    "@type": [
+      "http://www.w3.org/ns/shex#Schema"
+    ],
+    "http://www.w3.org/ns/shex#shapes": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL6C16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL6C16",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL7C29"
+          },
+          {
+            "@id": "_:ub1bL14C99"
+          },
+          {
+            "@id": "_:ub1bL19C54"
+          },
+          {
+            "@id": "_:ub1bL21C71"
+          },
+          {
+            "@id": "_:ub1bL74C122"
+          },
+          {
+            "@id": "_:ub1bL113C167"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL7C29",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL8C39"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL8C39",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": -1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/url"
+      }
+    ],
+    "http://www.w3.org/ns/shex#semActs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL12C46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL12C46",
+    "@type": [
+      "http://www.w3.org/ns/shex#SemAct"
+    ],
+    "http://www.w3.org/ns/shex#code": [
+      {
+        "@value": "console.log('some url checking code here')"
+      }
+    ],
+    "http://www.w3.org/ns/shex#name": [
+      {
+        "@id": "https://example.org/extension/dummy"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL14C99",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL15C39"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL15C39",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/datePublished"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL19C46"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL19C46"
+  },
+  {
+    "@id": "_:ub1bL19C54",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL20C39"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL20C39",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/claimReviewed"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL21C71",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL22C39"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL22C39",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/itemReviewed"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL26C46"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL26C46",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL27C57"
+          },
+          {
+            "@id": "_:ub1bL31C92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL27C57",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL28C67"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL28C67",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL30C74"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL30C74",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/sherxtoj/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL31C92",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL32C69"
+          },
+          {
+            "@id": "_:ub1bL37C114"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL32C69",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL33C78"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL33C78",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL34C87"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL34C87",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL36C94"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL36C94",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/sherxtoj/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL37C114",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL38C81"
+          },
+          {
+            "@id": "_:ub1bL69C182"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL38C81",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL39C91"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL39C91",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/author"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL43C98"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL43C98",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL44C109"
+          },
+          {
+            "@id": "_:ub1bL53C171"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL44C109",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL45C121"
+          },
+          {
+            "@id": "_:ub1bL49C173"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL45C121",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL46C131"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL46C131",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL48C138"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL48C138",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Organization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL49C173",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL50C131"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL50C131",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL52C138"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL52C138",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL53C171",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL54C121"
+          },
+          {
+            "@id": "_:ub1bL64C193"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL54C121",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL55C130"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL55C130",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL56C141"
+          },
+          {
+            "@id": "_:ub1bL60C193"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL56C141",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL57C151"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL57C151",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL59C158"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL59C158",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Organization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL60C193",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL61C151"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL61C151",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL63C158"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL63C158",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL64C193",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL65C133"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL65C133",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL66C143"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL66C143",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/name"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL69C182",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL70C91"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL70C91",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/datePublished"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL74C98"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL74C98"
+  },
+  {
+    "@id": "_:ub1bL74C122",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL75C39"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL75C39",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/author"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL79C46"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL79C46",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL80C57"
+          },
+          {
+            "@id": "_:ub1bL89C119"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL80C57",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL81C69"
+          },
+          {
+            "@id": "_:ub1bL85C121"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL81C69",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL82C79"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL82C79",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL84C86"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL84C86",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Organization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL85C121",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL86C79"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL86C79",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL88C86"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL88C86",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL89C119",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL90C69"
+          },
+          {
+            "@id": "_:ub1bL100C141"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL90C69",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL91C78"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL91C78",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL92C89"
+          },
+          {
+            "@id": "_:ub1bL96C141"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL92C89",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL93C99"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL93C99",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL95C106"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL95C106",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Organization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL96C141",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL97C99"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL97C99",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL99C106"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL99C106",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL100C141",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL101C81"
+          },
+          {
+            "@id": "_:ub1bL106C129"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL101C81",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL102C93"
+          },
+          {
+            "@id": "_:ub1bL104C126"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL102C93",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL103C103"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL103C103",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/name"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL104C126",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL105C103"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL105C103",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/url"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL106C129",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL107C91"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL107C91",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": -1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/url"
+      }
+    ],
+    "http://www.w3.org/ns/shex#semActs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL111C98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL111C98",
+    "@type": [
+      "http://www.w3.org/ns/shex#SemAct"
+    ],
+    "http://www.w3.org/ns/shex#code": [
+      {
+        "@value": "console.log('some url checking code here')"
+      }
+    ],
+    "http://www.w3.org/ns/shex#name": [
+      {
+        "@id": "https://example.org/extension/dummy"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL113C167",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL114C39"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL114C39",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": -1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/reviewRating"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL118C46"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL118C46",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL119C57"
+          },
+          {
+            "@id": "_:ub1bL123C103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL119C57",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL120C67"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL120C67",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL122C74"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL122C74",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Rating"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL123C103",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL124C69"
+          },
+          {
+            "@id": "_:ub1bL129C125"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL124C69",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL125C78"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL125C78",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL126C87"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL126C87",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL128C94"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL128C94",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "http://schema.org/Rating"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL129C125",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL130C81"
+          },
+          {
+            "@id": "_:ub1bL132C123"
+          },
+          {
+            "@id": "_:ub1bL150C155"
+          },
+          {
+            "@id": "_:ub1bL156C140"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL130C81",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL131C91"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL131C91",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL132C123",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL133C93"
+          },
+          {
+            "@id": "_:ub1bL141C151"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL133C93",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL134C105"
+          },
+          {
+            "@id": "_:ub1bL137C148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL134C105",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL135C114"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL135C114",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL136C123"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL136C123",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/name"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL137C148",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL138C115"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL138C115",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL141C151",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL142C105"
+          },
+          {
+            "@id": "_:ub1bL146C158"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL142C105",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL143C114"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL143C114",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL144C122"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL144C122",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL145C131"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL145C131",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/name"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL146C158",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL147C115"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL147C115",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": -1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL150C155",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL151C90"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL151C90",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL152C101"
+          },
+          {
+            "@id": "_:ub1bL154C143"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL152C101",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL153C111"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL153C111",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL154C143",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL155C111"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL155C111",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/name"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL156C140",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL157C93"
+          },
+          {
+            "@id": "_:ub1bL180C179"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL157C93",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL158C102"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL158C102",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL159C113"
+          },
+          {
+            "@id": "_:ub1bL166C169"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL159C113",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL160C125"
+          },
+          {
+            "@id": "_:ub1bL162C165"
+          },
+          {
+            "@id": "_:ub1bL164C164"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL160C125",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL161C135"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL161C135",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/ratingValue"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL162C165",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL163C135"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL163C135",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/bestRating"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL164C164",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL165C135"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL165C135",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/worstRating"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL166C169",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL167C122"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL167C122",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL168C133"
+          },
+          {
+            "@id": "_:ub1bL172C167"
+          },
+          {
+            "@id": "_:ub1bL176C167"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL168C133",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL169C143"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL169C143",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/ratingValue"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL171C150"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL171C150",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#pattern": [
+      {
+        "@value": "-1"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL172C167",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL173C143"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL173C143",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/bestRating"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL175C150"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL175C150",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#pattern": [
+      {
+        "@value": "-1"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL176C167",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL177C143"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL177C143",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/worstRating"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL179C150"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL179C150",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#pattern": [
+      {
+        "@value": "-1"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL180C179",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeAnd"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL181C105"
+          },
+          {
+            "@id": "_:ub1bL187C210"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL181C105",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL182C115"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL182C115",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": -1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/ratingValue"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL186C122"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL186C122",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL187C133"
+          },
+          {
+            "@id": "_:ub1bL187C156"
+          },
+          {
+            "@id": "_:ub1bL187C179"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL187C133",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ]
+  },
+  {
+    "@id": "_:ub1bL187C156",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ]
+  },
+  {
+    "@id": "_:ub1bL187C179",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ]
+  },
+  {
+    "@id": "_:ub1bL187C210",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeOr"
+    ],
+    "http://www.w3.org/ns/shex#shapeExprs": [
+      {
+        "@list": [
+          {
+            "@id": "_:ub1bL188C117"
+          },
+          {
+            "@id": "_:ub1bL194C172"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL188C117",
+    "@type": [
+      "http://www.w3.org/ns/shex#ShapeNot"
+    ],
+    "http://www.w3.org/ns/shex#shapeExpr": [
+      {
+        "@id": "_:ub1bL189C126"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL189C126",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL190C135"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL190C135",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#max": [
+      {
+        "@value": -1
+      }
+    ],
+    "http://www.w3.org/ns/shex#min": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://schema.org/ratingValue"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL194C142"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL194C142",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ]
+  },
+  {
+    "@id": "_:ub1bL194C172",
+    "@type": [
+      "http://www.w3.org/ns/shex#Shape"
+    ],
+    "http://www.w3.org/ns/shex#expression": [
+      {
+        "@id": "_:ub1bL195C127"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL195C127",
+    "@type": [
+      "http://www.w3.org/ns/shex#TripleConstraint"
+    ],
+    "http://www.w3.org/ns/shex#predicate": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://www.w3.org/ns/shex#valueExpr": [
+      {
+        "@id": "_:ub1bL197C134"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL197C134",
+    "@type": [
+      "http://www.w3.org/ns/shex#NodeConstraint"
+    ],
+    "http://www.w3.org/ns/shex#values": [
+      {
+        "@list": [
+          {
+            "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/sherxtoj/"
+          }
+        ]
+      }
+    ]
+  }
+]

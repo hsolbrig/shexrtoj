@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rdflib = "*"
+rdflib-jsonld = "*"
+pyld = { git = "https://github.com/hsolbrig/pyld" }
+shexjsg = { git = "https://github.com/hsolbrig/shexjsg@no_min_sizes" }
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

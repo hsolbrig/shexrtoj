@@ -1,0 +1,143 @@
+
+ (
+    {
+       <http://schema.org/url> . + %<https://example.org/extension/dummy> {console.log('some url checking code here')%}
+    } AND {
+       <http://schema.org/datePublished> . ?
+    } AND {
+       <http://schema.org/claimReviewed> .
+    } AND {
+       <http://schema.org/itemReviewed>  (
+          {
+             <rdf:type> [ <file:///Users/solbrig/git/hsolbrig/shexrtoj/sherxtoj/> ]
+          } AND  (
+             NOT ( {
+                <rdf:type> [ <file:///Users/solbrig/git/hsolbrig/shexrtoj/sherxtoj/> ]
+             } ) OR  (
+                {
+                   <http://schema.org/author>  (
+                       (
+                         {
+                            <rdf:type> [ <http://schema.org/Organization> ]
+                         } OR {
+                            <rdf:type> [ <http://schema.org/Person> ]
+                         }
+                      ) AND  (
+                         NOT (  (
+                            {
+                               <rdf:type> [ <http://schema.org/Organization> ]
+                            } OR {
+                               <rdf:type> [ <http://schema.org/Person> ]
+                            }
+                         ) ) OR  (
+                            {
+                               <http://schema.org/name> . ?
+                            } AND {
+                               <http://schema.org/name> . ?
+                            }
+                         )
+                      )
+                   ) ?
+                } AND {
+                   <http://schema.org/datePublished> . ?
+                }
+             )
+          )
+       ) ?
+    } AND {
+       <http://schema.org/author>  (
+           (
+             {
+                <rdf:type> [ <http://schema.org/Organization> ]
+             } OR {
+                <rdf:type> [ <http://schema.org/Person> ]
+             }
+          ) AND  (
+             NOT (  (
+                {
+                   <rdf:type> [ <http://schema.org/Organization> ]
+                } OR {
+                   <rdf:type> [ <http://schema.org/Person> ]
+                }
+             ) ) OR  (
+                 (
+                   {
+                      <http://schema.org/name> .
+                   } OR {
+                      <http://schema.org/url> .
+                   }
+                ) AND {
+                   <http://schema.org/url> . * %<https://example.org/extension/dummy> {console.log('some url checking code here')%}
+                }
+             )
+          )
+       ) ?
+    } AND {
+       <http://schema.org/reviewRating>  (
+          {
+             <rdf:type> [ <http://schema.org/Rating> ]
+          } AND  (
+             NOT ( {
+                <rdf:type> [ <http://schema.org/Rating> ]
+             } ) OR  (
+                {
+                   <http://schema.org/alternateName> .
+                } AND  (
+                    (
+                      NOT ( {
+                         <http://schema.org/name> .
+                      } ) OR {
+                         <http://schema.org/alternateName> . ?
+                      }
+                   ) AND  (
+                      NOT ( NOT ( {
+                         <http://schema.org/name> .
+                      } ) ) OR {
+                         <http://schema.org/alternateName> . +
+                      }
+                   )
+                ) AND NOT (  (
+                   {
+                      <http://schema.org/alternateName> .
+                   } AND {
+                      <http://schema.org/name> .
+                   }
+                ) ) AND  (
+                   NOT (  (
+                       (
+                         {
+                            <http://schema.org/ratingValue> .
+                         } OR {
+                            <http://schema.org/bestRating> .
+                         } OR {
+                            <http://schema.org/worstRating> .
+                         }
+                      ) AND NOT (  (
+                         {
+                            <http://schema.org/ratingValue> /-1/
+                         } AND {
+                            <http://schema.org/bestRating> /-1/
+                         } AND {
+                            <http://schema.org/worstRating> /-1/
+                         }
+                      ) )
+                   ) ) OR  (
+                      {
+                         <http://schema.org/ratingValue>  (
+                            . OR . OR .
+                         ) +
+                      } AND  (
+                         NOT ( {
+                            <http://schema.org/ratingValue> . +
+                         } ) OR {
+                            <rdf:type> [ <file:///Users/solbrig/git/hsolbrig/shexrtoj/sherxtoj/> ]
+                         }
+                      )
+                   )
+                )
+             )
+          )
+       ) +
+    }
+)
+
