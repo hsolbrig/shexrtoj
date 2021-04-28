@@ -54,9 +54,12 @@ This directory contains the expanded JSON-LD representation of the turtle exampl
 423 files converted
 ```
 
-#### data/danbri#
-`danbri.ttl` -- taken from https://gist.github.com/danbri/43eb914d29a2fd628f0d81868bd0447e
-`danbri.jsonld` --
+#### data/danbri
+* `danbri.ttl` -- taken from https://gist.github.com/danbri/43eb914d29a2fd628f0d81868bd0447e
+* `danbri.jsonld` -- raw json-ld representation of `danbri.ttl`
+* `danbri.shexj` -- result of framing `danbri.jsonld` with `shex.context.jsonld`
+* `danbri.shexjt` -- "tweaked" version of the above, after `tweak_shexj` was applied above
+* `danbri.shexc` -- ShExC representation of `danbri.shexjt`
 
 ### shexrtoj directory
 
