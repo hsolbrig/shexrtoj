@@ -33,7 +33,8 @@ def tweak_shexj(shexj: Union[Dict, List, str]) -> Union[Dict, List, str]:
     else:
         return shexj
 ```
-   
+4. Eric's edits fixed everything except for the "shex:" prefix issue -- we'll be filing a bug report on them. _Note_, however, 
+that Eric's edits also broke one thing -- schema itself must be a BNode -  `s/<FOO>/[]/`
 
 
 ## Project contents

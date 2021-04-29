@@ -8,4 +8,4 @@ pipenv run python -m shexrtoj.ttltojsonld data/danbri data/danbri
 pipenv run python -m shexrtoj.jsonldtoshexj data/danbri data/danbri -c data/context/shex.context.jsonld
 
 # Convert all the shexj's into shexc's
-pipenv run python -m shexrtoj.shexjtoshexc.py data/danbri data/danbri
+pipenv run python -m shexrtoj.shexjtoshexc -s data/danbri data/danbri

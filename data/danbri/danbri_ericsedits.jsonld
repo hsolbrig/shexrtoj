@@ -1,20 +1,5 @@
 [
   {
-    "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/data/danbri/FOO",
-    "@type": [
-      "http://www.w3.org/ns/shex#Schema"
-    ],
-    "http://www.w3.org/ns/shex#shapes": [
-      {
-        "@list": [
-          {
-            "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/data/danbri/S1"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/data/danbri/S1",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
@@ -35,10 +20,10 @@
             "@id": "_:ub1bL36C5"
           },
           {
-            "@id": "_:ub1bL152C5"
+            "@id": "_:ub1bL151C5"
           },
           {
-            "@id": "_:ub1bL236C5"
+            "@id": "_:ub1bL235C5"
           }
         ]
       }
@@ -173,16 +158,12 @@
     ],
     "http://www.w3.org/ns/shex#max": [
       {
-        "@value": 99999
+        "@value": 1
       }
     ],
     "http://www.w3.org/ns/shex#min": [
       {
-        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "171.1"
-      },
-      {
-        "@value": 1.711e+112
+        "@value": 0
       }
     ],
     "http://www.w3.org/ns/shex#predicate": [
@@ -192,12 +173,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL43C22"
+        "@id": "_:ub1bL42C22"
       }
     ]
   },
   {
-    "@id": "_:ub1bL43C22",
+    "@id": "_:ub1bL42C22",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -205,28 +186,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL46C13"
+            "@id": "_:ub1bL45C13"
           },
           {
-            "@id": "_:ub1bL54C13"
+            "@id": "_:ub1bL53C13"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL46C13",
+    "@id": "_:ub1bL45C13",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL47C29"
+        "@id": "_:ub1bL46C29"
       }
     ]
   },
   {
-    "@id": "_:ub1bL47C29",
+    "@id": "_:ub1bL46C29",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -237,18 +218,18 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL50C30"
+        "@id": "_:ub1bL49C30"
       }
     ]
   },
   {
-    "@id": "_:ub1bL50C30",
+    "@id": "_:ub1bL49C30",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ]
   },
   {
-    "@id": "_:ub1bL54C13",
+    "@id": "_:ub1bL53C13",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -256,39 +237,39 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL56C17"
+            "@id": "_:ub1bL55C17"
           },
           {
-            "@id": "_:ub1bL66C17"
+            "@id": "_:ub1bL65C17"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL56C17",
+    "@id": "_:ub1bL55C17",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL57C32"
+        "@id": "_:ub1bL56C32"
       }
     ]
   },
   {
-    "@id": "_:ub1bL57C32",
+    "@id": "_:ub1bL56C32",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL59C35"
+        "@id": "_:ub1bL58C35"
       }
     ]
   },
   {
-    "@id": "_:ub1bL59C35",
+    "@id": "_:ub1bL58C35",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -299,18 +280,18 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL62C36"
+        "@id": "_:ub1bL61C36"
       }
     ]
   },
   {
-    "@id": "_:ub1bL62C36",
+    "@id": "_:ub1bL61C36",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ]
   },
   {
-    "@id": "_:ub1bL66C17",
+    "@id": "_:ub1bL65C17",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -318,28 +299,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL68C21"
+            "@id": "_:ub1bL67C21"
           },
           {
-            "@id": "_:ub1bL136C21"
+            "@id": "_:ub1bL135C21"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL68C21",
+    "@id": "_:ub1bL67C21",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL69C37"
+        "@id": "_:ub1bL68C37"
       }
     ]
   },
   {
-    "@id": "_:ub1bL69C37",
+    "@id": "_:ub1bL68C37",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -360,12 +341,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL74C38"
+        "@id": "_:ub1bL73C38"
       }
     ]
   },
   {
-    "@id": "_:ub1bL74C38",
+    "@id": "_:ub1bL73C38",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -373,17 +354,17 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL77C29"
+            "@id": "_:ub1bL76C29"
           },
           {
-            "@id": "_:ub1bL97C29"
+            "@id": "_:ub1bL96C29"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL77C29",
+    "@id": "_:ub1bL76C29",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -391,28 +372,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL79C33"
+            "@id": "_:ub1bL78C33"
           },
           {
-            "@id": "_:ub1bL87C33"
+            "@id": "_:ub1bL86C33"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL79C33",
+    "@id": "_:ub1bL78C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL80C49"
+        "@id": "_:ub1bL79C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL80C49",
+    "@id": "_:ub1bL79C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -423,12 +404,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL83C50"
+        "@id": "_:ub1bL82C50"
       }
     ]
   },
   {
-    "@id": "_:ub1bL83C50",
+    "@id": "_:ub1bL82C50",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -443,18 +424,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL87C33",
+    "@id": "_:ub1bL86C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL88C49"
+        "@id": "_:ub1bL87C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL88C49",
+    "@id": "_:ub1bL87C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -465,12 +446,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL91C50"
+        "@id": "_:ub1bL90C50"
       }
     ]
   },
   {
-    "@id": "_:ub1bL91C50",
+    "@id": "_:ub1bL90C50",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -485,7 +466,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL97C29",
+    "@id": "_:ub1bL96C29",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -493,28 +474,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL99C33"
+            "@id": "_:ub1bL98C33"
           },
           {
-            "@id": "_:ub1bL123C37"
+            "@id": "_:ub1bL122C37"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL99C33",
+    "@id": "_:ub1bL98C33",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL100C48"
+        "@id": "_:ub1bL99C48"
       }
     ]
   },
   {
-    "@id": "_:ub1bL100C48",
+    "@id": "_:ub1bL99C48",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -522,28 +503,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL103C39"
+            "@id": "_:ub1bL102C39"
           },
           {
-            "@id": "_:ub1bL111C39"
+            "@id": "_:ub1bL110C39"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL103C39",
+    "@id": "_:ub1bL102C39",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL104C55"
+        "@id": "_:ub1bL103C55"
       }
     ]
   },
   {
-    "@id": "_:ub1bL104C55",
+    "@id": "_:ub1bL103C55",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -554,12 +535,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL107C56"
+        "@id": "_:ub1bL106C56"
       }
     ]
   },
   {
-    "@id": "_:ub1bL107C56",
+    "@id": "_:ub1bL106C56",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -574,18 +555,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL111C39",
+    "@id": "_:ub1bL110C39",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL112C55"
+        "@id": "_:ub1bL111C55"
       }
     ]
   },
   {
-    "@id": "_:ub1bL112C55",
+    "@id": "_:ub1bL111C55",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -596,12 +577,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL115C56"
+        "@id": "_:ub1bL114C56"
       }
     ]
   },
   {
-    "@id": "_:ub1bL115C56",
+    "@id": "_:ub1bL114C56",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -616,18 +597,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL123C37",
+    "@id": "_:ub1bL122C37",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL124C53"
+        "@id": "_:ub1bL123C53"
       }
     ]
   },
   {
-    "@id": "_:ub1bL124C53",
+    "@id": "_:ub1bL123C53",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -648,18 +629,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL136C21",
+    "@id": "_:ub1bL135C21",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL137C37"
+        "@id": "_:ub1bL136C37"
       }
     ]
   },
   {
-    "@id": "_:ub1bL137C37",
+    "@id": "_:ub1bL136C37",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -680,18 +661,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL152C5",
+    "@id": "_:ub1bL151C5",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL153C21"
+        "@id": "_:ub1bL152C21"
       }
     ]
   },
   {
-    "@id": "_:ub1bL153C21",
+    "@id": "_:ub1bL152C21",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -712,12 +693,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL158C22"
+        "@id": "_:ub1bL157C22"
       }
     ]
   },
   {
-    "@id": "_:ub1bL158C22",
+    "@id": "_:ub1bL157C22",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -725,17 +706,17 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL160C13"
+            "@id": "_:ub1bL159C13"
           },
           {
-            "@id": "_:ub1bL180C13"
+            "@id": "_:ub1bL179C13"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL160C13",
+    "@id": "_:ub1bL159C13",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -743,28 +724,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL162C17"
+            "@id": "_:ub1bL161C17"
           },
           {
-            "@id": "_:ub1bL170C17"
+            "@id": "_:ub1bL169C17"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL162C17",
+    "@id": "_:ub1bL161C17",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL163C33"
+        "@id": "_:ub1bL162C33"
       }
     ]
   },
   {
-    "@id": "_:ub1bL163C33",
+    "@id": "_:ub1bL162C33",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -775,12 +756,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL166C34"
+        "@id": "_:ub1bL165C34"
       }
     ]
   },
   {
-    "@id": "_:ub1bL166C34",
+    "@id": "_:ub1bL165C34",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -795,18 +776,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL170C17",
+    "@id": "_:ub1bL169C17",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL171C33"
+        "@id": "_:ub1bL170C33"
       }
     ]
   },
   {
-    "@id": "_:ub1bL171C33",
+    "@id": "_:ub1bL170C33",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -817,12 +798,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL174C34"
+        "@id": "_:ub1bL173C34"
       }
     ]
   },
   {
-    "@id": "_:ub1bL174C34",
+    "@id": "_:ub1bL173C34",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -837,7 +818,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL180C13",
+    "@id": "_:ub1bL179C13",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -845,28 +826,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL182C17"
+            "@id": "_:ub1bL181C17"
           },
           {
-            "@id": "_:ub1bL204C17"
+            "@id": "_:ub1bL203C17"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL182C17",
+    "@id": "_:ub1bL181C17",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL183C32"
+        "@id": "_:ub1bL182C32"
       }
     ]
   },
   {
-    "@id": "_:ub1bL183C32",
+    "@id": "_:ub1bL182C32",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -874,28 +855,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL186C23"
+            "@id": "_:ub1bL185C23"
           },
           {
-            "@id": "_:ub1bL194C23"
+            "@id": "_:ub1bL193C23"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL186C23",
+    "@id": "_:ub1bL185C23",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL187C39"
+        "@id": "_:ub1bL186C39"
       }
     ]
   },
   {
-    "@id": "_:ub1bL187C39",
+    "@id": "_:ub1bL186C39",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -906,12 +887,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL190C40"
+        "@id": "_:ub1bL189C40"
       }
     ]
   },
   {
-    "@id": "_:ub1bL190C40",
+    "@id": "_:ub1bL189C40",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -926,18 +907,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL194C23",
+    "@id": "_:ub1bL193C23",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL195C39"
+        "@id": "_:ub1bL194C39"
       }
     ]
   },
   {
-    "@id": "_:ub1bL195C39",
+    "@id": "_:ub1bL194C39",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -948,12 +929,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL198C40"
+        "@id": "_:ub1bL197C40"
       }
     ]
   },
   {
-    "@id": "_:ub1bL198C40",
+    "@id": "_:ub1bL197C40",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -968,7 +949,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL204C17",
+    "@id": "_:ub1bL203C17",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -976,17 +957,17 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL206C21"
+            "@id": "_:ub1bL205C21"
           },
           {
-            "@id": "_:ub1bL218C21"
+            "@id": "_:ub1bL217C21"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL206C21",
+    "@id": "_:ub1bL205C21",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -994,28 +975,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL208C25"
+            "@id": "_:ub1bL207C25"
           },
           {
-            "@id": "_:ub1bL211C58"
+            "@id": "_:ub1bL210C58"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL208C25",
+    "@id": "_:ub1bL207C25",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL209C41"
+        "@id": "_:ub1bL208C41"
       }
     ]
   },
   {
-    "@id": "_:ub1bL209C41",
+    "@id": "_:ub1bL208C41",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1026,18 +1007,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL211C58",
+    "@id": "_:ub1bL210C58",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL212C41"
+        "@id": "_:ub1bL211C41"
       }
     ]
   },
   {
-    "@id": "_:ub1bL212C41",
+    "@id": "_:ub1bL211C41",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1048,18 +1029,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL218C21",
+    "@id": "_:ub1bL217C21",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL219C37"
+        "@id": "_:ub1bL218C37"
       }
     ]
   },
   {
-    "@id": "_:ub1bL219C37",
+    "@id": "_:ub1bL218C37",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1082,14 +1063,14 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL225C27"
+            "@id": "_:ub1bL224C27"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL225C27",
+    "@id": "_:ub1bL224C27",
     "@type": [
       "http://www.w3.org/ns/shex#SemAct"
     ],
@@ -1105,18 +1086,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL236C5",
+    "@id": "_:ub1bL235C5",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL237C21"
+        "@id": "_:ub1bL236C21"
       }
     ]
   },
   {
-    "@id": "_:ub1bL237C21",
+    "@id": "_:ub1bL236C21",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1137,12 +1118,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL242C22"
+        "@id": "_:ub1bL241C22"
       }
     ]
   },
   {
-    "@id": "_:ub1bL242C22",
+    "@id": "_:ub1bL241C22",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1150,28 +1131,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL245C13"
+            "@id": "_:ub1bL244C13"
           },
           {
-            "@id": "_:ub1bL253C13"
+            "@id": "_:ub1bL252C13"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL245C13",
+    "@id": "_:ub1bL244C13",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL246C29"
+        "@id": "_:ub1bL245C29"
       }
     ]
   },
   {
-    "@id": "_:ub1bL246C29",
+    "@id": "_:ub1bL245C29",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1182,12 +1163,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL249C30"
+        "@id": "_:ub1bL248C30"
       }
     ]
   },
   {
-    "@id": "_:ub1bL249C30",
+    "@id": "_:ub1bL248C30",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1202,7 +1183,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL253C13",
+    "@id": "_:ub1bL252C13",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1210,39 +1191,39 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL255C17"
+            "@id": "_:ub1bL254C17"
           },
           {
-            "@id": "_:ub1bL265C17"
+            "@id": "_:ub1bL264C17"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL255C17",
+    "@id": "_:ub1bL254C17",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL256C32"
+        "@id": "_:ub1bL255C32"
       }
     ]
   },
   {
-    "@id": "_:ub1bL256C32",
+    "@id": "_:ub1bL255C32",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL258C35"
+        "@id": "_:ub1bL257C35"
       }
     ]
   },
   {
-    "@id": "_:ub1bL258C35",
+    "@id": "_:ub1bL257C35",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1253,12 +1234,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL261C36"
+        "@id": "_:ub1bL260C36"
       }
     ]
   },
   {
-    "@id": "_:ub1bL261C36",
+    "@id": "_:ub1bL260C36",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1273,7 +1254,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL265C17",
+    "@id": "_:ub1bL264C17",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1281,34 +1262,34 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL267C21"
+            "@id": "_:ub1bL266C21"
           },
           {
-            "@id": "_:ub1bL270C63"
+            "@id": "_:ub1bL269C63"
           },
           {
-            "@id": "_:ub1bL312C19"
+            "@id": "_:ub1bL311C19"
           },
           {
-            "@id": "_:ub1bL328C19"
+            "@id": "_:ub1bL327C19"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL267C21",
+    "@id": "_:ub1bL266C21",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL268C37"
+        "@id": "_:ub1bL267C37"
       }
     ]
   },
   {
-    "@id": "_:ub1bL268C37",
+    "@id": "_:ub1bL267C37",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1319,7 +1300,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL270C63",
+    "@id": "_:ub1bL269C63",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1327,17 +1308,17 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL272C25"
+            "@id": "_:ub1bL271C25"
           },
           {
-            "@id": "_:ub1bL290C25"
+            "@id": "_:ub1bL289C25"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL272C25",
+    "@id": "_:ub1bL271C25",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1345,39 +1326,39 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL274C29"
+            "@id": "_:ub1bL273C29"
           },
           {
-            "@id": "_:ub1bL281C29"
+            "@id": "_:ub1bL280C29"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL274C29",
+    "@id": "_:ub1bL273C29",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL275C44"
+        "@id": "_:ub1bL274C44"
       }
     ]
   },
   {
-    "@id": "_:ub1bL275C44",
+    "@id": "_:ub1bL274C44",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL277C47"
+        "@id": "_:ub1bL276C47"
       }
     ]
   },
   {
-    "@id": "_:ub1bL277C47",
+    "@id": "_:ub1bL276C47",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1388,18 +1369,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL281C29",
+    "@id": "_:ub1bL280C29",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL282C45"
+        "@id": "_:ub1bL281C45"
       }
     ]
   },
   {
-    "@id": "_:ub1bL282C45",
+    "@id": "_:ub1bL281C45",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1420,7 +1401,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL290C25",
+    "@id": "_:ub1bL289C25",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1428,50 +1409,50 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL292C29"
+            "@id": "_:ub1bL291C29"
           },
           {
-            "@id": "_:ub1bL301C29"
+            "@id": "_:ub1bL300C29"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL292C29",
+    "@id": "_:ub1bL291C29",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL293C44"
+        "@id": "_:ub1bL292C44"
       }
     ]
   },
   {
-    "@id": "_:ub1bL293C44",
+    "@id": "_:ub1bL292C44",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL295C46"
+        "@id": "_:ub1bL294C46"
       }
     ]
   },
   {
-    "@id": "_:ub1bL295C46",
+    "@id": "_:ub1bL294C46",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL297C49"
+        "@id": "_:ub1bL296C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL297C49",
+    "@id": "_:ub1bL296C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1482,18 +1463,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL301C29",
+    "@id": "_:ub1bL300C29",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL302C45"
+        "@id": "_:ub1bL301C45"
       }
     ]
   },
   {
-    "@id": "_:ub1bL302C45",
+    "@id": "_:ub1bL301C45",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1514,18 +1495,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL312C19",
+    "@id": "_:ub1bL311C19",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL313C34"
+        "@id": "_:ub1bL312C34"
       }
     ]
   },
   {
-    "@id": "_:ub1bL313C34",
+    "@id": "_:ub1bL312C34",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1533,28 +1514,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL316C25"
+            "@id": "_:ub1bL315C25"
           },
           {
-            "@id": "_:ub1bL321C25"
+            "@id": "_:ub1bL320C25"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL316C25",
+    "@id": "_:ub1bL315C25",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL317C41"
+        "@id": "_:ub1bL316C41"
       }
     ]
   },
   {
-    "@id": "_:ub1bL317C41",
+    "@id": "_:ub1bL316C41",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1565,18 +1546,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL321C25",
+    "@id": "_:ub1bL320C25",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL322C41"
+        "@id": "_:ub1bL321C41"
       }
     ]
   },
   {
-    "@id": "_:ub1bL322C41",
+    "@id": "_:ub1bL321C41",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1587,7 +1568,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL328C19",
+    "@id": "_:ub1bL327C19",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1595,28 +1576,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL330C23"
+            "@id": "_:ub1bL329C23"
           },
           {
-            "@id": "_:ub1bL380C23"
+            "@id": "_:ub1bL379C23"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL330C23",
+    "@id": "_:ub1bL329C23",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL331C38"
+        "@id": "_:ub1bL330C38"
       }
     ]
   },
   {
-    "@id": "_:ub1bL331C38",
+    "@id": "_:ub1bL330C38",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1624,17 +1605,17 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL334C29"
+            "@id": "_:ub1bL333C29"
           },
           {
-            "@id": "_:ub1bL349C29"
+            "@id": "_:ub1bL348C29"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL334C29",
+    "@id": "_:ub1bL333C29",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1642,31 +1623,31 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL336C33"
+            "@id": "_:ub1bL335C33"
           },
           {
-            "@id": "_:ub1bL341C33"
+            "@id": "_:ub1bL340C33"
           },
           {
-            "@id": "_:ub1bL344C33"
+            "@id": "_:ub1bL343C33"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL336C33",
+    "@id": "_:ub1bL335C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL337C49"
+        "@id": "_:ub1bL336C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL337C49",
+    "@id": "_:ub1bL336C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1677,18 +1658,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL341C33",
+    "@id": "_:ub1bL340C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL342C49"
+        "@id": "_:ub1bL341C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL342C49",
+    "@id": "_:ub1bL341C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1699,18 +1680,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL344C33",
+    "@id": "_:ub1bL343C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL345C49"
+        "@id": "_:ub1bL344C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL345C49",
+    "@id": "_:ub1bL344C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1721,18 +1702,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL349C29",
+    "@id": "_:ub1bL348C29",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL350C44"
+        "@id": "_:ub1bL349C44"
       }
     ]
   },
   {
-    "@id": "_:ub1bL350C44",
+    "@id": "_:ub1bL349C44",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1740,31 +1721,31 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL353C33"
+            "@id": "_:ub1bL352C33"
           },
           {
-            "@id": "_:ub1bL360C33"
+            "@id": "_:ub1bL359C33"
           },
           {
-            "@id": "_:ub1bL368C33"
+            "@id": "_:ub1bL367C33"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL353C33",
+    "@id": "_:ub1bL352C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL354C49"
+        "@id": "_:ub1bL353C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL354C49",
+    "@id": "_:ub1bL353C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1775,12 +1756,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL357C50"
+        "@id": "_:ub1bL356C50"
       }
     ]
   },
   {
-    "@id": "_:ub1bL357C50",
+    "@id": "_:ub1bL356C50",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1791,18 +1772,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL360C33",
+    "@id": "_:ub1bL359C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL361C49"
+        "@id": "_:ub1bL360C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL361C49",
+    "@id": "_:ub1bL360C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1813,12 +1794,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL364C50"
+        "@id": "_:ub1bL363C50"
       }
     ]
   },
   {
-    "@id": "_:ub1bL364C50",
+    "@id": "_:ub1bL363C50",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1829,18 +1810,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL368C33",
+    "@id": "_:ub1bL367C33",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL369C49"
+        "@id": "_:ub1bL368C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL369C49",
+    "@id": "_:ub1bL368C49",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1851,12 +1832,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL372C50"
+        "@id": "_:ub1bL371C50"
       }
     ]
   },
   {
-    "@id": "_:ub1bL372C50",
+    "@id": "_:ub1bL371C50",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1867,7 +1848,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL380C23",
+    "@id": "_:ub1bL379C23",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeAnd"
     ],
@@ -1875,28 +1856,28 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL382C28"
+            "@id": "_:ub1bL381C28"
           },
           {
-            "@id": "_:ub1bL399C28"
+            "@id": "_:ub1bL398C28"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL382C28",
+    "@id": "_:ub1bL381C28",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL383C44"
+        "@id": "_:ub1bL382C44"
       }
     ]
   },
   {
-    "@id": "_:ub1bL383C44",
+    "@id": "_:ub1bL382C44",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -1917,12 +1898,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL388C45"
+        "@id": "_:ub1bL387C45"
       }
     ]
   },
   {
-    "@id": "_:ub1bL388C45",
+    "@id": "_:ub1bL387C45",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1930,20 +1911,20 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL391C36"
+            "@id": "_:ub1bL390C36"
           },
           {
-            "@id": "_:ub1bL393C36"
+            "@id": "_:ub1bL392C36"
           },
           {
-            "@id": "_:ub1bL395C36"
+            "@id": "_:ub1bL394C36"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL391C36",
+    "@id": "_:ub1bL390C36",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1954,7 +1935,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL393C36",
+    "@id": "_:ub1bL392C36",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1965,7 +1946,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL395C36",
+    "@id": "_:ub1bL394C36",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -1976,7 +1957,7 @@
     ]
   },
   {
-    "@id": "_:ub1bL399C28",
+    "@id": "_:ub1bL398C28",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeOr"
     ],
@@ -1984,39 +1965,39 @@
       {
         "@list": [
           {
-            "@id": "_:ub1bL401C32"
+            "@id": "_:ub1bL400C32"
           },
           {
-            "@id": "_:ub1bL413C32"
+            "@id": "_:ub1bL412C32"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:ub1bL401C32",
+    "@id": "_:ub1bL400C32",
     "@type": [
       "http://www.w3.org/ns/shex#ShapeNot"
     ],
     "http://www.w3.org/ns/shex#shapeExpr": [
       {
-        "@id": "_:ub1bL402C47"
+        "@id": "_:ub1bL401C47"
       }
     ]
   },
   {
-    "@id": "_:ub1bL402C47",
+    "@id": "_:ub1bL401C47",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL404C50"
+        "@id": "_:ub1bL403C50"
       }
     ]
   },
   {
-    "@id": "_:ub1bL404C50",
+    "@id": "_:ub1bL403C50",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -2037,12 +2018,12 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL409C51"
+        "@id": "_:ub1bL408C51"
       }
     ]
   },
   {
-    "@id": "_:ub1bL409C51",
+    "@id": "_:ub1bL408C51",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
     ],
@@ -2053,18 +2034,18 @@
     ]
   },
   {
-    "@id": "_:ub1bL413C32",
+    "@id": "_:ub1bL412C32",
     "@type": [
       "http://www.w3.org/ns/shex#Shape"
     ],
     "http://www.w3.org/ns/shex#expression": [
       {
-        "@id": "_:ub1bL414C48"
+        "@id": "_:ub1bL413C48"
       }
     ]
   },
   {
-    "@id": "_:ub1bL414C48",
+    "@id": "_:ub1bL413C48",
     "@type": [
       "http://www.w3.org/ns/shex#TripleConstraint"
     ],
@@ -2075,14 +2056,29 @@
     ],
     "http://www.w3.org/ns/shex#valueExpr": [
       {
-        "@id": "_:ub1bL417C49"
+        "@id": "_:ub1bL416C49"
       }
     ]
   },
   {
-    "@id": "_:ub1bL417C49",
+    "@id": "_:ub1bL416C49",
     "@type": [
       "http://www.w3.org/ns/shex#NodeConstraint"
+    ]
+  },
+  {
+    "@id": "_:ub1bL5C1",
+    "@type": [
+      "http://www.w3.org/ns/shex#Schema"
+    ],
+    "http://www.w3.org/ns/shex#shapes": [
+      {
+        "@list": [
+          {
+            "@id": "file:///Users/solbrig/git/hsolbrig/shexrtoj/data/danbri/S1"
+          }
+        ]
+      }
     ]
   }
 ]

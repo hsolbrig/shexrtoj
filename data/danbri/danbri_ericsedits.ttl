@@ -3,7 +3,7 @@ PREFIX schema: <http://schema.org/>
 PREFIX sx: <http://www.w3.org/ns/shex#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<FOO> a sx:Schema ;
+[] a sx:Schema ;
     sx:shapes (<S1>) .
 
 <S1> a sx:ShapeAnd ;
@@ -37,9 +37,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     [ a sx:Shape ;
       sx:expression [
         a sx:TripleConstraint ;
-        sx:max 99999 ;
-        sx:min 17.11E+111 ;
-        sx:min 171.1 ;
+        sx:max 1 ;
+        sx:min 0 ;
         sx:predicate schema:itemReviewed ;
         sx:valueExpr [
           a sx:ShapeAnd ;
