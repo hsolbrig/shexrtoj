@@ -2,6 +2,8 @@ import os
 
 
 def change_suffix(fname: str, old_suffix: str, new_suffix: str) -> str:
+    if not new_suffix.startswith('.'):
+        new_suffix = '.' + new_suffix
     if fname.endswith(old_suffix):
         return fname[:-len(old_suffix)] + new_suffix
     raise ValueError(f"{fname} does not end with {old_suffix}")

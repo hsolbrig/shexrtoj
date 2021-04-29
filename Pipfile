@@ -7,7 +7,9 @@ name = "pypi"
 rdflib = "*"
 rdflib-jsonld = "*"
 pyld = { git = "https://github.com/hsolbrig/pyld" }
-shexjsg = { git = "https://github.com/hsolbrig/shexjsg@no_min_sizes" }
+# shexjsg = { git = "https://github.com/hsolbrig/shexjsg@no_min_sizes" }
+shexjsg = "*"
+rdflib-pyld-compat = "*"
 requests = "*"
 
 [dev-packages]

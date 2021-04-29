@@ -1,0 +1,434 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX sx: <http://www.w3.org/ns/shex#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<FOO> a sx:Schema ;
+    sx:shapes (<S1>) .
+
+<S1> a sx:ShapeAnd ;
+  sx:shapeExprs (
+    [ a sx:Shape ;
+      sx:expression [
+        a sx:TripleConstraint ;
+        sx:max -1 ;
+        sx:min 1 ;
+        sx:predicate schema:url ;
+        sx:semActs (
+          [ a sx:SemAct ;
+            sx:code "console.log('some url checking code here')" ;
+            sx:name <https://example.org/extension/dummy>
+          ]
+        )
+    ] ]
+    [ a sx:Shape ;
+      sx:expression [
+        a sx:TripleConstraint ;
+        sx:max 1 ;
+        sx:min 0 ;
+        sx:predicate schema:datePublished ;
+#        sx:valueExpr [ ]
+    ] ]
+    [ a sx:Shape ;
+      sx:expression [
+        a sx:TripleConstraint ;
+        sx:predicate schema:claimReviewed
+    ] ]
+    [ a sx:Shape ;
+      sx:expression [
+        a sx:TripleConstraint ;
+        sx:max 99999 ;
+        sx:min 17.11E+111 ;
+        sx:min 171.1 ;
+        sx:predicate schema:itemReviewed ;
+        sx:valueExpr [
+          a sx:ShapeAnd ;
+          sx:shapeExprs (
+            [ a sx:Shape ;
+              sx:expression [
+                a sx:TripleConstraint ;
+                sx:predicate rdf:type ;
+                sx:valueExpr [
+                  a sx:NodeConstraint ;
+#                  sx:values ( <> )
+            ] ] ]
+            [ a sx:ShapeOr ;
+              sx:shapeExprs (
+                [ a sx:ShapeNot ;
+                  sx:shapeExpr [
+                    a sx:Shape ;
+                    sx:expression [
+                      a sx:TripleConstraint ;
+                      sx:predicate rdf:type ;
+                      sx:valueExpr [
+                        a sx:NodeConstraint ;
+#                        sx:values ( <> )
+                ] ] ] ]
+                [ a sx:ShapeAnd ;
+                  sx:shapeExprs (
+                    [ a sx:Shape ;
+                      sx:expression [
+                        a sx:TripleConstraint ;
+                        sx:max 1 ;
+                        sx:min 0 ;
+                        sx:predicate schema:author ;
+                        sx:valueExpr [
+                          a sx:ShapeAnd ;
+                          sx:shapeExprs (
+                            [ a sx:ShapeOr ;
+                              sx:shapeExprs (
+                                [ a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate rdf:type ;
+                                    sx:valueExpr [
+                                      a sx:NodeConstraint ;
+                                      sx:values ( schema:Organization )
+                                ] ] ]
+                                [ a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate rdf:type ;
+                                    sx:valueExpr [
+                                      a sx:NodeConstraint ;
+                                      sx:values ( schema:Person )
+                                ] ] ]
+                              )
+                            ]
+                            [ a sx:ShapeOr ;
+                              sx:shapeExprs (
+                                [ a sx:ShapeNot ;
+                                  sx:shapeExpr [
+                                    a sx:ShapeOr ;
+                                    sx:shapeExprs (
+                                      [ a sx:Shape ;
+                                        sx:expression [
+                                          a sx:TripleConstraint ;
+                                          sx:predicate rdf:type ;
+                                          sx:valueExpr [
+                                            a sx:NodeConstraint ;
+                                            sx:values ( schema:Organization )
+                                      ] ] ]
+                                      [ a sx:Shape ;
+                                        sx:expression [
+                                          a sx:TripleConstraint ;
+                                          sx:predicate rdf:type ;
+                                          sx:valueExpr [
+                                            a sx:NodeConstraint ;
+                                            sx:values ( schema:Person )
+                                      ] ] ]
+                                    )
+                                ] ]
+#                                [ a sx:ShapeAnd ;
+#                                  sx:shapeExprs (
+                                    [ a sx:Shape ;
+                                      sx:expression [
+                                        a sx:TripleConstraint ;
+                                        sx:max 1 ;
+                                        sx:min 0 ;
+                                        sx:predicate schema:name
+                                    ] ]
+                                  )
+#                                ]
+#                              )
+                            ]
+                          )
+                    ] ] ]
+                    [ a sx:Shape ;
+                      sx:expression [
+                        a sx:TripleConstraint ;
+                        sx:max 1 ;
+                        sx:min 0 ;
+                        sx:predicate schema:datePublished ;
+#                        sx:valueExpr [ ]
+                    ] ]
+                  )
+                ]
+              )
+            ]
+          )
+    ] ] ]
+
+
+    [ a sx:Shape ;
+      sx:expression [
+        a sx:TripleConstraint ;
+        sx:max 1 ;
+        sx:min 0 ;
+        sx:predicate schema:author ;
+        sx:valueExpr [ a sx:ShapeAnd ;
+          sx:shapeExprs (
+            [ a sx:ShapeOr ;
+              sx:shapeExprs (
+                [ a sx:Shape ;
+                  sx:expression [
+                    a sx:TripleConstraint ;
+                    sx:predicate rdf:type ;
+                    sx:valueExpr [
+                      a sx:NodeConstraint ;
+                      sx:values ( schema:Organization )
+                ] ] ]
+                [ a sx:Shape ;
+                  sx:expression [
+                    a sx:TripleConstraint ;
+                    sx:predicate rdf:type ;
+                    sx:valueExpr [
+                      a sx:NodeConstraint ;
+                      sx:values ( schema:Person )
+                ] ] ]
+              )
+            ]
+            [ a sx:ShapeOr ;
+              sx:shapeExprs (
+                [ a sx:ShapeNot ;
+                  sx:shapeExpr [
+                  a sx:ShapeOr ;
+                    sx:shapeExprs (
+                      [ a sx:Shape ;
+                        sx:expression [
+                          a sx:TripleConstraint ;
+                          sx:predicate rdf:type ;
+                          sx:valueExpr [
+                            a sx:NodeConstraint ;
+                            sx:values ( schema:Organization )
+                      ] ] ]
+                      [ a sx:Shape ;
+                        sx:expression [
+                          a sx:TripleConstraint ;
+                          sx:predicate rdf:type ;
+                          sx:valueExpr [
+                            a sx:NodeConstraint ;
+                            sx:values ( schema:Person )
+                      ] ] ]
+                    )
+                ] ]
+                [ a sx:ShapeAnd ;
+                  sx:shapeExprs (
+                    [ a sx:ShapeOr ;
+                      sx:shapeExprs (
+                        [ a sx:Shape ;
+                          sx:expression [
+                            a sx:TripleConstraint ;
+                            sx:predicate schema:name ] ] [ a sx:Shape ;
+                          sx:expression [
+                            a sx:TripleConstraint ;
+                            sx:predicate schema:url
+                        ] ]
+                      )
+                    ]
+                    [ a sx:Shape ;
+                      sx:expression [
+                        a sx:TripleConstraint ;
+                        sx:max -1 ;
+                        sx:min 0 ;
+                        sx:predicate schema:url ;
+                        sx:semActs (
+                          [ a sx:SemAct ;
+                            sx:code "console.log('some url checking code here')" ;
+                            sx:name <https://example.org/extension/dummy> ]
+                        )
+                    ] ]
+                  )
+                ]
+              )
+            ]
+          )
+    ] ] ]
+    [ a sx:Shape ;
+      sx:expression [
+        a sx:TripleConstraint ;
+        sx:max -1 ;
+        sx:min 1 ;
+        sx:predicate schema:reviewRating ;
+        sx:valueExpr [
+          a sx:ShapeAnd ;
+          sx:shapeExprs (
+            [ a sx:Shape ;
+              sx:expression [
+                a sx:TripleConstraint ;
+                sx:predicate rdf:type ;
+                sx:valueExpr [
+                  a sx:NodeConstraint ;
+                  sx:values ( schema:Rating )
+            ] ] ]
+            [ a sx:ShapeOr ;
+              sx:shapeExprs (
+                [ a sx:ShapeNot ;
+                  sx:shapeExpr [
+                    a sx:Shape ;
+                    sx:expression [
+                      a sx:TripleConstraint ;
+                      sx:predicate rdf:type ;
+                      sx:valueExpr [
+                        a sx:NodeConstraint ;
+                        sx:values ( schema:Rating )
+                ] ] ] ]
+                [ a sx:ShapeAnd ;
+                  sx:shapeExprs (
+                    [ a sx:Shape ;
+                      sx:expression [
+                        a sx:TripleConstraint ;
+                        sx:predicate schema:alternateName ] ] [ a sx:ShapeAnd ;
+                      sx:shapeExprs (
+                        [ a sx:ShapeOr ;
+                          sx:shapeExprs (
+                            [ a sx:ShapeNot ;
+                              sx:shapeExpr [
+                                a sx:Shape ;
+                                sx:expression [
+                                  a sx:TripleConstraint ;
+                                  sx:predicate schema:name
+                            ] ] ]
+                            [ a sx:Shape ;
+                              sx:expression [
+                                a sx:TripleConstraint ;
+                                sx:max 1 ;
+                                sx:min 0 ;
+                                sx:predicate schema:alternateName
+                            ] ]
+                          )
+                        ]
+                        [ a sx:ShapeOr ;
+                          sx:shapeExprs (
+                            [ a sx:ShapeNot ;
+                              sx:shapeExpr [
+                                a sx:ShapeNot ;
+                                sx:shapeExpr [
+                                  a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate schema:name
+                            ] ] ] ]
+                            [ a sx:Shape ;
+                              sx:expression [
+                              a sx:TripleConstraint ;
+                              sx:max -1 ;
+                              sx:min 1 ;
+                              sx:predicate schema:alternateName
+                          ] ]
+                        )
+                      ]
+                    )
+                  ]
+                  [ a sx:ShapeNot ;
+                    sx:shapeExpr [
+                      a sx:ShapeAnd ;
+                      sx:shapeExprs (
+                        [ a sx:Shape ;
+                          sx:expression [
+                            a sx:TripleConstraint ;
+                            sx:predicate schema:alternateName
+                        ] ]
+                        [ a sx:Shape ;
+                          sx:expression [
+                            a sx:TripleConstraint ;
+                            sx:predicate schema:name
+                        ] ]
+                      )
+                  ] ]
+                  [ a sx:ShapeOr ;
+                    sx:shapeExprs (
+                      [ a sx:ShapeNot ;
+                        sx:shapeExpr [
+                          a sx:ShapeAnd ;
+                          sx:shapeExprs (
+                            [ a sx:ShapeOr ;
+                              sx:shapeExprs (
+                                [ a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate schema:ratingValue
+                                ] ]
+                                [ a sx:Shape ;
+                                  sx:expression [ a sx:TripleConstraint ;
+                                          sx:predicate schema:bestRating ] ]
+                                [ a sx:Shape ;
+                                  sx:expression [ a sx:TripleConstraint ;
+                                          sx:predicate schema:worstRating ] ]
+                              )
+                            ]
+                            [ a sx:ShapeNot ;
+                              sx:shapeExpr [
+                              a sx:ShapeAnd ;
+                              sx:shapeExprs (
+                                [ a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate schema:ratingValue ;
+                                    sx:valueExpr [
+                                      a sx:NodeConstraint ;
+                                      sx:pattern "-1" ] ] ]
+                                [ a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate schema:bestRating ;
+                                    sx:valueExpr [
+                                      a sx:NodeConstraint ;
+                                      sx:pattern "-1"
+                                ] ] ]
+                                [ a sx:Shape ;
+                                  sx:expression [
+                                    a sx:TripleConstraint ;
+                                    sx:predicate schema:worstRating ;
+                                    sx:valueExpr [
+                                      a sx:NodeConstraint ;
+                                      sx:pattern "-1"
+                                ] ] ]
+                              )
+                          ] ]
+                        )
+                      ] ]
+                      [ a sx:ShapeAnd ;
+                         sx:shapeExprs (
+                           [ a sx:Shape ;
+                             sx:expression [
+                               a sx:TripleConstraint ;
+                               sx:max -1 ;
+                               sx:min 1 ;
+                               sx:predicate schema:ratingValue ;
+                               sx:valueExpr [
+                                 a sx:ShapeOr ;
+                                 sx:shapeExprs (
+                                   [ a sx:NodeConstraint ;
+                                     sx:pattern "(\\d+[\\.,]?\\d*)/(\\d+[\\.,]?\\d*)" ]
+                                   [ a sx:NodeConstraint ;
+                                     sx:pattern "(\\d+[\\.,]?\\d*)%" ]
+                                   [ a sx:NodeConstraint ;
+                                     sx:pattern "(\\d+[\\.,]?\\d*)" ]
+                                 )
+                           ] ] ]
+                           [ a sx:ShapeOr ;
+                             sx:shapeExprs (
+                               [ a sx:ShapeNot ;
+                                 sx:shapeExpr [
+                                   a sx:Shape ;
+                                   sx:expression [
+                                     a sx:TripleConstraint ;
+                                     sx:max -1 ;
+                                     sx:min 1 ;
+                                     sx:predicate schema:ratingValue ;
+                                     sx:valueExpr [
+                                       a sx:NodeConstraint ;
+                                       sx:pattern "(\\d+[\\.,]?\\d*)"
+                               ] ] ] ]
+                               [ a sx:Shape ;
+                                 sx:expression [
+                                   a sx:TripleConstraint ;
+                                   sx:predicate rdf:type ;
+                                   sx:valueExpr [
+                                     a sx:NodeConstraint ;
+#                                     sx:values ( <> )
+                                ] ] ]
+                              )
+                            ]
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ]
+              )
+            ]
+          )
+    ] ] ]
+  ) .

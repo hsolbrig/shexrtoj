@@ -154,7 +154,8 @@
     },
     "shapes": {
       "@id": "shex:shapes",
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@list"
     },
     "start": {
       "@id": "shex:start",
